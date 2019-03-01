@@ -1,0 +1,33 @@
+{
+    "rainbowOptions": {
+        "rainbow": {
+            "host": "<RAINBOW_HOST>"
+        },
+        "credentials": {
+            "login": "<RAINBOW_BOT_LOGIN>", 
+            "password": "<RAINBOW_BOT_PASSWORD>"
+        },    
+        "application": {
+            "appID": "<RAINBOW_APPID>",
+            "appSecret": "<RAINBOW_APPSECRET>"
+        },    
+        "logs": {
+            "enableConsoleLogs": false,
+            "enableFileLogs": true,
+            "file": {
+                "path": "logs",
+                "level": "debug"
+            }
+        },    
+        "im": {
+            "sendReadReceipt": true
+        }
+    },
+    "lex": {
+        "botAlias": "<BOT_ALIAS>",
+        "botName": "<BOT_NAME>",
+        "awsRegion": "<AWS_REGION>",
+        "awsAccessKeyId": "<AWS_ACCESS_KEY_ID>",
+        "awsSecretAccessKey": "<AWS_SECRET_ACCESS_KEY>"
+    }
+}

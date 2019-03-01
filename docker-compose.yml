@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+  bot:
+    image: rainbow-lex-sample
+    env_file: ./bot_env_file

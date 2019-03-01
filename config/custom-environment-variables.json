@@ -1,0 +1,22 @@
+{
+    "rainbowOptions": {
+        "rainbow": {
+            "host": "RAINBOW_HOST"
+        },
+        "credentials": {
+            "login": "RAINBOW_BOT_LOGIN", 
+            "password": "RAINBOW_BOT_PASSWORD"
+        },    
+        "application": {
+            "appID": "RAINBOW_APPID",
+            "appSecret": "RAINBOW_APPSECRET"
+        }
+    },
+    "lex": {
+        "botAlias": "AWS_BOT_ALIAS",
+        "botName": "AWS_BOT_NAME",
+        "awsRegion": "AWS_REGION",
+        "awsAccessKeyId": "AWS_ACCESS_KEY_ID",
+        "awsSecretAccessKey": "AWS_SECRET_ACCESS_KEY"
+    }
+}
