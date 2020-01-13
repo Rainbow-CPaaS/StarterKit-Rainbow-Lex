@@ -10,9 +10,9 @@
   "author": "Alcatel-Lucent Enterprise",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.410.0",
-    "config": "^3.0.1",
-    "rainbow-node-sdk": "^1.52.0",
+    "aws-sdk": "^2.601.0",
+    "config": "^3.2.4",
+    "rainbow-node-sdk": "^1.65.2",
     "winston": "^3.2.1"
   },
   "engines": {

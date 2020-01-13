@@ -4,13 +4,13 @@
             "host": "<RAINBOW_HOST>"
         },
         "credentials": {
-            "login": "<RAINBOW_BOT_LOGIN>", 
+            "login": "<RAINBOW_BOT_LOGIN>",
             "password": "<RAINBOW_BOT_PASSWORD>"
-        },    
+        },
         "application": {
             "appID": "<RAINBOW_APPID>",
             "appSecret": "<RAINBOW_APPSECRET>"
-        },    
+        },
         "logs": {
             "enableConsoleLogs": false,
             "enableFileLogs": true,
@@ -18,9 +18,15 @@
                 "path": "logs",
                 "level": "debug"
             }
-        },    
+        },
         "im": {
-            "sendReadReceipt": true
+            "sendReadReceipt": true,
+            "messageMaxLength": 1024,
+            "sendMessageToConnectedUser": true,
+            "conversationsRetrievedFormat": "small",
+            "storeMessages": false,
+            "nbMaxConversations": 15,
+            "rateLimitPerHour": 1000
         }
     },
     "lex": {
